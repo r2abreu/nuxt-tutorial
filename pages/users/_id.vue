@@ -6,7 +6,7 @@
 export default {
   name: 'UserId',
   validate(context) {
-    return !isNaN(context.data.params.id);
+    return !isNaN(context.params.id);
   },
   computed: {
     getId() {
