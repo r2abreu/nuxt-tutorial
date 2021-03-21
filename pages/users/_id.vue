@@ -5,6 +5,7 @@
 <script>
 export default {
   name: 'UserId',
+  layout: 'users',
   validate(context) {
     return !isNaN(context.params.id);
   },

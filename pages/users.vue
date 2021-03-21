@@ -10,6 +10,8 @@
 <script>
 export default {
   name: 'UserIndex',
+  layout: 'users',
+
   data() {
     return {
       id: '',
